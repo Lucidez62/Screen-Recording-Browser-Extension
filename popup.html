@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Pro Tab Recorder</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🎥 Tab Recorder</h1>
+    <p class="description">Record any tab with seamless tab switching!</p>
+    
+    <div class="button-container">
+      <button id="startBtn">Start Recording</button>
+      <button id="stopBtn" disabled>Stop Recording</button>
+    </div>
+    
+    <div id="status" class="status">Ready to record</div>
+    
+    <div class="info">
+      <p><strong>Important:</strong></p>
+      <ul>
+        <li>🔴 Keep this popup open while recording</li>
+        <li>📹 Recording captures current tab only</li>
+        <li>💾 File downloads automatically when stopped</li>
+        <li>⚠️ Switching tabs will stop recording</li>
+      </ul>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
