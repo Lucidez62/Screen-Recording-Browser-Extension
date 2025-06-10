@@ -1,12 +1,13 @@
 {
   "name": "Pro Tab Recorder",
-  "description": "Record your current browser tab with seamless tab switching support.",
+  "description": "Record your current browser tab with seamless tab switching support and microphone audio.",
   "version": "2.0",
   "manifest_version": 3,
   "permissions": [
     "tabCapture",
     "activeTab",
-    "storage"
+    "storage",
+    "audio"
   ],
   "action": {
     "default_popup": "popup.html",
